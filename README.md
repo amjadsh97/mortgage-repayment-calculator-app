@@ -1,30 +1,67 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Mortgage repayment calculator solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Mortgage repayment calculator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/mortgage-repayment-calculator-Galx1LXK73). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+- [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+- [Author](#author)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Overview
 
-- Configure the top-level `parserOptions` property like this:
+### The challenge
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Users should be able to:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Input mortgage information and see monthly repayment and total repayment amounts after submitting the form
+- See form validation messages if any field is incomplete
+- Complete the form only using their keyboard
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+![](./screenshot.png)
+
+### Links
+
+- Solution URL: https://github.com/amjadsh97/mortgage-repayment-calculator-app
+- Live Site URL: https://mortgage-repayment-calculator-app.vercel.app/
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [React](https://reactjs.org/) - JS library
+- [Formik](https://formik.org/) - Build forms in React
+
+
+### What I learned
+I learned how to handle form by using formik library. it was great and helpful.
+
+
+### Continued development
+I will make an app by using formik and integrate it with backend.
+
+### Useful resources
+- [React Docs](https://react.dev/) - This helped me for building react components. I really liked using this docs.
+
+
+## Author
+
+- Website - [Amjad Shadid](https://amjadshadid.com)
+- Frontend Mentor - [@amjadsh97](https://www.frontendmentor.io/profile/amjadsh97)
+- Twitter - [@Amjadshadid](https://twitter.com/Amjadshadid)
+- Linkedin - [@Amjad Shadid](https://www.linkedin.com/in/amjad-shadid-134355134/)
